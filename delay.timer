@@ -1,0 +1,7 @@
+[Unit]
+Description="Run script after 3 min"
+[Timer]
+OnBootSec=3m
+[Install]
+WantedBy=default.target
+
